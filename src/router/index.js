@@ -56,6 +56,16 @@ const router = createRouter({
       name:'device',
       component:()=>import('../components/device/device.vue')
     },
+    {
+      path:'/datamanage',
+      name:'datamanage',
+      component:()=>import('../components/datamanage/datamanage.vue')
+    },
+    {
+      path:'/bigdata',
+      name:'bigdata',
+      component:()=>import('../components/bigdata/bigdata.vue')
+    },
   ]
 })
 

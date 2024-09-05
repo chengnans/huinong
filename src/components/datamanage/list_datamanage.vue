@@ -37,28 +37,65 @@ style="position:relative;left: -8px"
             <el-icon><location /></el-icon>
             <span>数据报表</span>
           </template>
-          <el-menu-item index="2-1-1">基地信息</el-menu-item>
-          <el-menu-item index="2-1-2">基地评级报表</el-menu-item>
-          <el-menu-item index="2-1-3">基地评级设置</el-menu-item>
-          <el-menu-item index="2-1-4">种植户管理</el-menu-item>
+          <el-menu-item index="2-1-1">土壤分级报表</el-menu-item>
+          <el-menu-item index="2-1-2">农作物监测报表</el-menu-item>
         </el-sub-menu>
         <el-sub-menu index="2-2" >
         <template #title>
           <el-icon><location /></el-icon>
-          <span>生产管理</span>
+          <span>农业标准库</span>
         </template>
-          <el-menu-item index="2-2-1">遥感图片</el-menu-item>
-          <el-menu-item index="2-2-2">农事记录</el-menu-item>
-          <el-menu-item index="2-2-3">农事计划</el-menu-item>
-          <el-menu-item index="2-2-4">农事分类设置</el-menu-item>
-          <el-menu-item index="2-2-5">农资管理</el-menu-item>
+          <el-menu-item index="2-2-1">农业分类设置</el-menu-item>
       </el-sub-menu>
         <el-sub-menu index="2-3" >
           <template #title>
             <el-icon><location /></el-icon>
-            <span>古树管理</span>
+            <span>种植通用</span>
           </template>
-          <el-menu-item index="2-3-1">古树列表</el-menu-item>
+          <el-menu-item index="2-3-1">种植业标准库</el-menu-item>
+          <el-menu-item index="2-2-2">生长周期识别</el-menu-item>
+          <el-menu-item index="2-2-3">病虫害标准库</el-menu-item>
+          <el-menu-item index="2-2-4">作物生长周期</el-menu-item>
+        </el-sub-menu>
+        <el-sub-menu index="2-3" >
+          <template #title>
+            <el-icon><location /></el-icon>
+            <span>种植v2.0专用</span>
+          </template>
+          <el-menu-item index="2-3-1">生育周期设置</el-menu-item>
+          <el-menu-item index="2-2-2">模型数据库</el-menu-item>
+          <el-menu-item index="2-2-3">灾害模型</el-menu-item>
+          <el-menu-item index="2-2-4">肥料数据库</el-menu-item>
+          <el-menu-item index="2-2-3">灌区数据库</el-menu-item>
+          <el-menu-item index="2-2-4">基地数据库</el-menu-item>
+          <el-menu-item index="2-2-4">农事分类设置</el-menu-item>
+        </el-sub-menu>
+        <el-sub-menu index="2-1" >
+          <template #title>
+            <el-icon><location /></el-icon>
+            <span>展示数据中心</span>
+          </template>
+          <el-menu-item index="2-1-1">产业企业</el-menu-item>
+          <el-menu-item index="2-1-2">文化融合</el-menu-item>
+        </el-sub-menu>
+        <el-sub-menu index="2-3" >
+          <template #title>
+            <el-icon><location /></el-icon>
+            <span>产业数据中心</span>
+          </template>
+          <el-menu-item index="2-3-1">产业价格管理</el-menu-item>
+          <el-menu-item index="2-2-2">数据同步任务</el-menu-item>
+          <el-menu-item index="2-2-3">产地管理</el-menu-item>
+          <el-menu-item index="2-2-4">数据分类管理</el-menu-item>
+          <el-menu-item index="2-2-3">数据源管理</el-menu-item>
+        </el-sub-menu>
+        <el-sub-menu index="2-3" >
+          <template #title>
+            <el-icon><location /></el-icon>
+            <span>土壤健康管理</span>
+          </template>
+          <el-menu-item index="2-3-1">土壤检测记录</el-menu-item>
+          <el-menu-item index="2-2-2">土壤健康标准库</el-menu-item>
         </el-sub-menu>
       </el-menu>
     </el-col>

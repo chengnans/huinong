@@ -15,8 +15,8 @@ style="position:relative;left: -8px"
     <el-menu-item index="/baseland" style="position: relative;left: 200px;width: 200px">基地管理</el-menu-item>
     <el-menu-item index="/organization" style="position: relative;left: 200px;width: 200px">机构管理</el-menu-item>
     <el-menu-item index="/device"style="position: relative;left: 200px;width: 250px">设备管理</el-menu-item>
-    <el-menu-item index="4" style="position: relative;left: 200px">数据管理</el-menu-item>
-    <el-menu-item index="5" style="position: relative;left: 300px">大数据展示</el-menu-item>
+    <el-menu-item index="/datamanage" style="position: relative;left: 200px">数据管理</el-menu-item>
+    <el-menu-item index="/bigdata" style="position: relative;left: 300px">大数据展示</el-menu-item>
   </el-menu>
 
   <div style="height: 750px;width: 400px" >

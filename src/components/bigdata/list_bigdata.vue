@@ -35,10 +35,48 @@ style="position:relative;left: -8px"
         <el-sub-menu index="2-1" >
           <template #title>
             <el-icon><location /></el-icon>
-            <span>设备管理</span>
+            <span>大屏管理</span>
           </template>
-          <el-menu-item index="2-1-1">概览统计</el-menu-item>
-          <el-menu-item index="2-1-2">设备中心</el-menu-item>
+          <el-menu-item index="2-1-1">基础设置</el-menu-item>
+          <el-menu-item index="2-1-2">菜单管理</el-menu-item>
+        </el-sub-menu>
+        <el-sub-menu index="2-2" >
+        <template #title>
+          <el-icon><location /></el-icon>
+          <span>大屏数据配置</span>
+        </template>
+          <el-menu-item index="2-2-1">通用菜单配置</el-menu-item>
+          <el-menu-item index="2-1-1">通用数据配置</el-menu-item>
+          <el-menu-item index="2-1-2">地图图标配置</el-menu-item>
+          <el-menu-item index="2-1-2">工具栏配置</el-menu-item>
+          <el-menu-item index="2-1-2">地图边界配置</el-menu-item>
+      </el-sub-menu>
+        <el-sub-menu index="2-3" >
+          <template #title>
+            <el-icon><location /></el-icon>
+            <span>设施管理</span>
+          </template>
+          <el-menu-item index="2-3-1">设施列表</el-menu-item>
+          <el-menu-item index="2-2-2">设施分类管理</el-menu-item>
+        </el-sub-menu>
+        <el-sub-menu index="2-3" >
+          <template #title>
+            <el-icon><location /></el-icon>
+            <span>企业管理</span>
+          </template>
+          <el-menu-item index="2-3-1">企业列表</el-menu-item>
+          <el-menu-item index="2-2-2">产品列表</el-menu-item>
+          <el-menu-item index="2-2-3">作品列表</el-menu-item>
+        </el-sub-menu>
+        <el-sub-menu index="2-1" >
+          <template #title>
+            <el-icon><location /></el-icon>
+            <span>内容管理</span>
+          </template>
+          <el-menu-item index="2-1-1">故事库</el-menu-item>
+          <el-menu-item index="2-1-2">音视频库</el-menu-item>
+          <el-menu-item index="2-1-1">图片库</el-menu-item>
+          <el-menu-item index="2-1-2">VR库</el-menu-item>
         </el-sub-menu>
       </el-menu>
     </el-col>
